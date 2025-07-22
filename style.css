@@ -1,7 +1,51 @@
 .text-overview {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+body {
+  background-color: rgb(33, 0, 40);
+}
+
+.container-fluid {
+  background-color: #560279;
+  height: 50px;
+  width: 200vh;
+  border-radius: 5px;
+}
+
+.pagination {
+  align-items: center;
+  padding: 15px;
+}
+
+.page-link {
+  color: rgb(255, 255, 255);
+  background-color: rgb(33, 0, 40);
+}
+
+.container {
+  background-color: rgb(33, 0, 40);
+  padding: 10px;
+}
+
+.icon-container {
+  text-align: 
+}
+
+.icon-label {
+  color: rgb(255, 255, 255);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.text-center {
+  color: rgba(198, 91, 247, 0.421);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.movie-container {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0);
 }
